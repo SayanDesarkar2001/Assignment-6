@@ -38,13 +38,16 @@ Step 1: Loading and Preprocessing
 3.	Define Target and Features: Separate the target variable (price) and convert categorical variables to dummy variables.
 4.	Split Data: Split the data into training and testing sets (80-20 split).
 5.	Feature Scaling: Standardize the features using StandardScaler.
+
 Step 2: Model Implementation
 1.	Define Models: Linear Regression, Decision Tree, Random Forest, Gradient Boosting, SVR.
 2.	Train and Predict: Train each model and make predictions on the test set.
 3.	Evaluate Models: Calculate R-squared, MSE, and MAE for each model. Identify the best model based on R-squared.
+
 Step 3: Feature Importance Analysis
 1.	Tree-Based Models: Extract and visualize the top 10 most important features.
 2.	Linear Regression: Extract and visualize the top 10 most significant coefficients.
+
 Step 4: Hyperparameter Tuning
 1.	Random Forest: Perform Grid Search to find the best hyperparameters and re-evaluate the model.
 
