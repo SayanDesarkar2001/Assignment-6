@@ -31,6 +31,7 @@ Columns and Their Descriptions:
 
 
 Manipulation performed on Dataset:
+
 Step 1: Loading and Preprocessing
 1.	Load Dataset: Read the CSV file into a DataFrame.
 2.	Data Cleaning: Drop missing values.
